@@ -1198,4 +1198,319 @@ justify-content: space-between;
     font-size: 15px;
     line-height: 0px;
   }
+
+  .support-tab-wrap .tab-left-botom ul li {
+    width: 26%;
+    margin-bottom: 5px;
+  }
+
+  .support-tab-wrap .tab-left-botom ul {
+    width: 95%;
+  }
+
+  .modern-b2b-sec {
+    padding: 40px 0;
+  }
+
+  .modern-wrap {
+    flex-wrap: wrap;
+  }
+
+  .modern-left {
+    width: 100%;
+    text-align: center;
+  }
+
+  .modern-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .modern-left-head h4 {
+    font-size: 28px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .modern-left-head p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 25px;
+  }
+
+  .modern-input form input {
+    padding-bottom: 5px;
+    width: 50%;
+    margin-bottom: 25px;
+  }
+
+  .play-btn-wrap {
+    top: -330px;
+    left: 20px;
+  }
+
+  .customer-sec {
+    padding: 70px 0;
+  }
+
+  .customer-head h4 {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+
+  .customer-head p {
+    width: 700px;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 35px;
+  }
+
+  .customer-img {
+    padding: 15px 30px;
+  }
+
+  .customer-content {
+    padding: 15px;
+  }
+
+  .customer-content h5 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .customer-content p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .pricing-sec {
+    padding: 50px 0;
+  }
+
+  .pricing-head h4 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 45px;
+  }
+
+  .pricing-wrap .nav-link {
+    width: 180px;
+    height: 60px;
+    font-size: 18px;
+  }
+
+  .pricing-box {
+    width: 24%;
+  }
+
+  .price-box-head {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .price-box-head p {
+    font-size: 22px;
+    padding: 15px 10px;
+  }
+
+  .price-content h6 {
+    font-size: 25px;
+  }
+
+  .price-content p {
+    font-size: 15px;
+    margin-bottom: 35px;
+  }
+
+  .price-line {
+    margin-bottom: 10px;
+    width: 90%;
+  }
+
+  .price-content p.price {
+    margin-bottom: 10px;
+  }
+
+  .price-line.botom-line {
+    margin-bottom: 35px;
+  }
+
+  .price-boton button {
+    width: 160px;
+    height: 45px;
+    margin-bottom: 15px;
+    font-size: 17px;
+  }
+
+  .face-left {
+    width: 38%;
+  }
+
+  .face-right {
+    width: 56%;
+  }
+
+  .face-right-wrap h5 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 15px;
+  }
+
+  .face-right-wrap p {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 25px;
+  }
+
+  .face-boton button {
+    width: 150px;
+    height: 45px;
+    font-size: 16px;
+  }
+
+  .review-sec {
+    padding: 50px 0;
+  }
+
+  .review-head h3 {
+    font-size: 35px;
+    margin-bottom: 80px;
+  }
+
+  .stars i {
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+
+  .user-review p {
+    padding: 0 15px;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 15px;
+  }
+
+  .review-line {
+    margin-bottom: 15px;
+  }
+
+  .user-name {
+    padding: 0 15px;
+  }
+
+  .user-name h6 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .user-name p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .happy-left {
+    width: 65%;
+  }
+
+  .happy-left-head h4 {
+    font-size: 29px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+
+  .happy-left-head p {
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+
+  .happy-boton button {
+    width: 140px;
+    height: 45px;
+    font-size: 16px;
+  }
+
+  .blog-sec {
+    padding: 50px 0;
+  }
+
+  .blog-head h3 {
+    font-size: 35px;
+    margin-bottom: 40px;
+  }
+
+  .blog-content {
+    padding: 15px;
+  }
+
+  .blog-content h5 {
+    font-size: 19px;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+
+  .blog-content p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  footer {
+    padding: 50px 0 0 0;
+  }
+
+  .foot-top-wrap {
+    margin-bottom: 35px;
+    flex-wrap: wrap;
+  }
+
+  .foot-logo-wrap {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .foot-list {
+    width: 100%;
+  }
+
+  .foot-logo {
+    margin-bottom: 20px;
+  }
+
+  .foot-logo-content {
+    margin-bottom: 20px;
+  }
+
+  .foot-logo-content h6 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .foot-logo-content a {
+    font-size: 15px;
+  }
+
+  .foot-logo-botom p {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .foot-logo-icon a {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+  .foot-link h6 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .foot-link a {
+    font-size: 13px;
+  }
+
+  .foot-botom-wrap p {
+    font-size: 12px;
+  }
+
+  .foot-anchor a {
+    font-size: 15px;
+  }
 }
