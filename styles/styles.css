@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+ul, ol {
+  padding: 0;
+  margin: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -48,15 +53,15 @@ header {
 
 #nav-bar {
   width: 100%;
+  margin-left: auto;
 }
 
 .navbar-nav {
   width: 80%;
+  margin-left: auto;
 }
 
-.navbar-end {
-  width: 18%;
-}
+
 
 .navbar-nav li {
   margin-right: 50px;
@@ -112,7 +117,7 @@ header {
   width: 60%;
   position: relative;
   top: 0px;
-  left: 310px;
+  right: -310px;
 }
 
 .hero-left-head {
@@ -806,6 +811,11 @@ border-radius: 0;
   width: 55%;
 }
 
+.tab-content {
+  margin-top: 40px;
+}
+
+
 .tab-left-head h3 {
   font-size: 32px;
   font-weight: 600;
@@ -821,7 +831,7 @@ border-radius: 0;
   margin-bottom: 30px;
 }
 
-.support-tab-wrap .tab-left-botom ul {
+.support-tab-wrap .tab-left-botom .customer-icons {
   padding: 0;
   margin: 0;
   display: flex;
@@ -832,11 +842,11 @@ border-radius: 0;
   width: 80%;
 }
 
-.support-tab-wrap .tab-left-botom ul li {
+.support-tab-wrap .tab-left-botom .customer-icons li {
   width: 40%;
   margin-bottom: 20px;
 }
-.support-tab-wrap .tab-left-botom ul li span {
+.support-tab-wrap .tab-left-botom .customer-icons li span {
   display: block;
   margin-bottom: 5px;
   width: 36px;
@@ -863,8 +873,8 @@ border-radius: 0;
   color: #ffffff;
 }
 
-.support-tab-wrap ul {
-  width: 90%;
+#myTab {
+  width: 88.5%;
   margin: 0 auto;
   border: 0;
   border-bottom: 3px solid #757095;
@@ -874,18 +884,17 @@ border-radius: 0;
   flex-wrap: wrap;
 }
 
-.support-tab-wrap ul li {
+#myTab li {
   margin-right: 38px;
 }
 
-.support-tab-wrap ul li:last-child {
+#myTab li:last-child {
   margin-right: 0;
 }
 
 .support-tab-wrap .nav-link {
   padding: 0;
   border: 0;
-  /* border-bottom: 3px solid #757095; */
   margin-bottom: -3px;
   color: #757095;
   font-size: 16px;
@@ -910,17 +919,53 @@ footer {
   padding: 100px 0 0 0;
 }
 
-.foot-top-wrap {
-  width: 100%;
+.footer-inner-wrap {
   display: flex;
-  align-items: stretch;
-  justify-content: space-between;
-  margin-bottom: 50px;
+  align-items: flex-start;
+  justify-content: start;
 }
 
-.foot-logo-wrap {
+.footer-logo-wrap {
   width: 20%;
 }
+
+.footer-link-wrap {
+  width: 78%;
+  margin-left: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.foot-link-box {
+  width: 17%;
+}
+
+.foot-link-box h6 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+
+.foot-link-box ul {
+  list-style: none;
+}
+
+
+.foot-link-box ul li {
+  margin-bottom: 8px;
+}
+
+
+.foot-link-box ul li a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
 
 .foot-logo {
   margin-bottom: 40px;
@@ -960,36 +1005,6 @@ color: #ffffff;
   margin-bottom: 20px;
 }
 
-.foot-list {
-  width: 70%;
-}
-
-.foot-list ul {
-  display: flex;
-  align-items: stretch;
-  justify-content: space-between;
-}
-
-.foot-list ul li {
-  list-style: none;
-  width: 100%;
-  margin-right: 80px;
-}
-
-.foot-link h6 {
-  font-size: 26px;
-  font-weight: 600;
-  color: #ffffff;
-  margin-bottom: 20px;
-}
-
-
-.foot-link a {
-  font-size: 18px;
-  font-weight: 400;
-  color: #ffffff;
-  line-height: 28px;
-}
 
 .foot-line {
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -1018,499 +1033,8 @@ justify-content: space-between;
 }
 
 
+
+
 /* footer ends  */
 
 
-/* Responsive Begins  */
-
-@media (max-width: 1199px) {
-  .logo {
-    margin-right: 0;
-    width: 35%;
-  }
-
-  #nav-bar {
-    width: 80%;
-  }
-
-  .navbar-nav {
-    width: 75%;
-  }
-
-  .navbar-nav li a {
-    font-size: 18px;
-  }
-
-  .navbar-end {
-    width: 25%;
-  }
-
-  .navbar-end button {
-    width: 130px;
-    height: 50px;
-    font-size: 17px;
-  }
-
-  .banner-sec {
-    padding: 140px 0 80px 0;
-  }
-
-  .hero-left {
-    width: 60%;
-  }
-
-  .hero-right {
-    width: 40%;
-    left: 28px;
-  }
-
-  .hero-left-head {
-    margin-bottom: 35px;
-  }
-
-  .hero-left-head h2 {
-    width: 595px;
-    font-size: 45px;
-    line-height: 55px;
-    margin-bottom: 20px;
-  }
-
-  .hero-left-head p {
-    width: 505px;
-    font-size: 18px;
-    line-height: 30px;
-  }
-
-  .hero-left-button {
-    margin-bottom: 35px;
-  }
-
-  .hero-left-button button {
-    width: 135px;
-    height: 50px;
-    font-size: 16px;
-    margin-right: 10px;
-  }
-
-  .hero-left-button .demo-boton {
-    width: 220px;
-  }
-
-  .hero-left-botom img {
-    margin-right: 15px;
-  }
-
-  .company-head h4 {
-    font-size: 25px;
-    margin-bottom: 35px;
-  }
-
-  .company-logos {
-    flex-wrap: wrap;
-  }
-
-  .company-logos img {
-    margin-right: 15px;
-    width: 17%;
-  }
-
-  .help-desk-sec {
-    padding: 50px 0;
-  }
-
-  .help-head h4 {
-    font-size: 35px;
-    margin-bottom: 45px;
-  }
-
-  .help-box {
-    width: 31%;
-  }
-
-  .help-img {
-    padding: 25px;
-  }
-
-  .help-box-content {
-    padding: 15px;
-  }
-
-  .help-box-content h6 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-
-  .help-box-content p {
-    font-size: 15px;
-    line-height: 25px;
-  }
-
-  .support-software-sec {
-    padding: 60px 0;
-  }
-
-  .support-head h2 {
-    font-size: 35px;
-    line-height: 45px;
-    margin-bottom: 15px;
-  }
-
-  .support-head h6 {
-    width: 730px;
-    font-size: 15px;
-    line-height: 25px;
-    margin-bottom: 30px;
-  }
-
-  .support-tab-wrap ul {
-    width: 90%;
-    border-bottom: 2px solid #757095;
-  }
-
-  .support-tab-wrap ul li {
-    margin-right: 25px;
-    margin-bottom: 5px;
-  }
-
-  .tab-wrap {
-    margin-bottom: 40px;
-  }
-
-  .tab-left {
-    width: 55%;
-  }
-
-  .tab-right {
-    width: 50%;
-  }
-
-  .tab-left-head {
-    padding-left: 40px;
-  }
-
-  .tab-left-head h3 {
-    font-size: 25px;
-    margin-bottom: 15px;
-    margin-top: 30px;
-  }
-
-  .tab-left-head p {
-    font-size: 15px;
-    line-height: 0px;
-  }
-
-  .support-tab-wrap .tab-left-botom ul li {
-    width: 26%;
-    margin-bottom: 5px;
-  }
-
-  .support-tab-wrap .tab-left-botom ul {
-    width: 95%;
-  }
-
-  .modern-b2b-sec {
-    padding: 40px 0;
-  }
-
-  .modern-wrap {
-    flex-wrap: wrap;
-  }
-
-  .modern-left {
-    width: 100%;
-    text-align: center;
-  }
-
-  .modern-right {
-    width: 100%;
-    text-align: center;
-  }
-
-  .modern-left-head h4 {
-    font-size: 28px;
-    line-height: 40px;
-    margin-bottom: 20px;
-  }
-
-  .modern-left-head p {
-    font-size: 16px;
-    line-height: 25px;
-    margin-bottom: 25px;
-  }
-
-  .modern-input form input {
-    padding-bottom: 5px;
-    width: 50%;
-    margin-bottom: 25px;
-  }
-
-  .play-btn-wrap {
-    top: -330px;
-    left: 20px;
-  }
-
-  .customer-sec {
-    padding: 70px 0;
-  }
-
-  .customer-head h4 {
-    font-size: 35px;
-    margin-bottom: 15px;
-  }
-
-  .customer-head p {
-    width: 700px;
-    font-size: 16px;
-    line-height: 25px;
-    margin-bottom: 35px;
-  }
-
-  .customer-img {
-    padding: 15px 30px;
-  }
-
-  .customer-content {
-    padding: 15px;
-  }
-
-  .customer-content h5 {
-    font-size: 22px;
-    margin-bottom: 10px;
-  }
-
-  .customer-content p {
-    font-size: 15px;
-    line-height: 25px;
-  }
-
-  .pricing-sec {
-    padding: 50px 0;
-  }
-
-  .pricing-head h4 {
-    font-size: 32px;
-    line-height: 40px;
-    margin-bottom: 45px;
-  }
-
-  .pricing-wrap .nav-link {
-    width: 180px;
-    height: 60px;
-    font-size: 18px;
-  }
-
-  .pricing-box {
-    width: 24%;
-  }
-
-  .price-box-head {
-    padding: 10px;
-    margin-bottom: 20px;
-  }
-
-  .price-box-head p {
-    font-size: 22px;
-    padding: 15px 10px;
-  }
-
-  .price-content h6 {
-    font-size: 25px;
-  }
-
-  .price-content p {
-    font-size: 15px;
-    margin-bottom: 35px;
-  }
-
-  .price-line {
-    margin-bottom: 10px;
-    width: 90%;
-  }
-
-  .price-content p.price {
-    margin-bottom: 10px;
-  }
-
-  .price-line.botom-line {
-    margin-bottom: 35px;
-  }
-
-  .price-boton button {
-    width: 160px;
-    height: 45px;
-    margin-bottom: 15px;
-    font-size: 17px;
-  }
-
-  .face-left {
-    width: 38%;
-  }
-
-  .face-right {
-    width: 56%;
-  }
-
-  .face-right-wrap h5 {
-    font-size: 35px;
-    line-height: 40px;
-    margin-bottom: 15px;
-  }
-
-  .face-right-wrap p {
-    font-size: 15px;
-    line-height: 25px;
-    margin-bottom: 25px;
-  }
-
-  .face-boton button {
-    width: 150px;
-    height: 45px;
-    font-size: 16px;
-  }
-
-  .review-sec {
-    padding: 50px 0;
-  }
-
-  .review-head h3 {
-    font-size: 35px;
-    margin-bottom: 80px;
-  }
-
-  .stars i {
-    margin-bottom: 10px;
-    font-size: 12px;
-  }
-
-  .user-review p {
-    padding: 0 15px;
-    font-size: 16px;
-    line-height: 25px;
-    margin-bottom: 15px;
-  }
-
-  .review-line {
-    margin-bottom: 15px;
-  }
-
-  .user-name {
-    padding: 0 15px;
-  }
-
-  .user-name h6 {
-    font-size: 18px;
-    margin-bottom: 5px;
-  }
-
-  .user-name p {
-    font-size: 14px;
-    margin-bottom: 15px;
-  }
-
-  .happy-left {
-    width: 65%;
-  }
-
-  .happy-left-head h4 {
-    font-size: 29px;
-    line-height: 40px;
-    margin-bottom: 25px;
-  }
-
-  .happy-left-head p {
-    font-size: 15px;
-    margin-bottom: 25px;
-  }
-
-  .happy-boton button {
-    width: 140px;
-    height: 45px;
-    font-size: 16px;
-  }
-
-  .blog-sec {
-    padding: 50px 0;
-  }
-
-  .blog-head h3 {
-    font-size: 35px;
-    margin-bottom: 40px;
-  }
-
-  .blog-content {
-    padding: 15px;
-  }
-
-  .blog-content h5 {
-    font-size: 19px;
-    line-height: 30px;
-    margin-bottom: 15px;
-  }
-
-  .blog-content p {
-    font-size: 16px;
-    line-height: 25px;
-  }
-
-  footer {
-    padding: 50px 0 0 0;
-  }
-
-  .foot-top-wrap {
-    margin-bottom: 35px;
-    flex-wrap: wrap;
-  }
-
-  .foot-logo-wrap {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .foot-list {
-    width: 100%;
-  }
-
-  .foot-logo {
-    margin-bottom: 20px;
-  }
-
-  .foot-logo-content {
-    margin-bottom: 20px;
-  }
-
-  .foot-logo-content h6 {
-    font-size: 20px;
-    margin-bottom: 5px;
-  }
-
-  .foot-logo-content a {
-    font-size: 15px;
-  }
-
-  .foot-logo-botom p {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-
-  .foot-logo-icon a {
-    font-size: 18px;
-    margin-right: 10px;
-  }
-
-  .foot-link h6 {
-    font-size: 20px;
-    margin-bottom: 15px;
-  }
-
-  .foot-link a {
-    font-size: 13px;
-  }
-
-  .foot-botom-wrap p {
-    font-size: 12px;
-  }
-
-  .foot-anchor a {
-    font-size: 15px;
-  }
-}

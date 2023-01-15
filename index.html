@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/bootstrap.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
   </head>
   <body>
     <header>
@@ -43,7 +44,7 @@
               </div>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-bar" aria-controls="nav-bar" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              <i class="fa-solid fa-bars"></i>
             </button>
           </div>
         </div>
@@ -175,7 +176,7 @@
                         <p>Customer insights and experience within one platform.</p>
                       </div>
                       <div class="tab-left-botom">
-                        <ul>
+                        <ul class="customer-icons">
                           <li>
                             <span><img src="./images/management-icon1.png" alt="" /></span> Omni-Channel
                           </li>
@@ -220,7 +221,7 @@
                         <p>Customer insights and experience within one platform.</p>
                       </div>
                       <div class="tab-left-botom">
-                        <ul>
+                        <ul class="customer-icons">
                           <li>
                             <span><img src="./images/management-icon1.png" alt="" /></span> Omni-Channel
                           </li>
@@ -265,7 +266,7 @@
                         <p>Customer insights and experience within one platform.</p>
                       </div>
                       <div class="tab-left-botom">
-                        <ul>
+                        <ul class="customer-icons">
                           <li>
                             <span><img src="./images/management-icon1.png" alt="" /></span> Omni-Channel
                           </li>
@@ -310,7 +311,7 @@
                         <p>Customer insights and experience within one platform.</p>
                       </div>
                       <div class="tab-left-botom">
-                        <ul>
+                        <ul class="customer-icons">
                           <li>
                             <span><img src="./images/management-icon1.png" alt="" /></span> Omni-Channel
                           </li>
@@ -355,7 +356,7 @@
                         <p>Customer insights and experience within one platform.</p>
                       </div>
                       <div class="tab-left-botom">
-                        <ul>
+                        <ul class="customer-icons">
                           <li>
                             <span><img src="./images/management-icon1.png" alt="" /></span> Omni-Channel
                           </li>
@@ -400,7 +401,7 @@
                         <p>Customer insights and experience within one platform.</p>
                       </div>
                       <div class="tab-left-botom">
-                        <ul>
+                        <ul class="customer-icons">
                           <li>
                             <span><img src="./images/management-icon1.png" alt="" /></span> Omni-Channel
                           </li>
@@ -461,7 +462,26 @@
               </div>
               <div class="play-btn">
                 <div class="play-btn-wrap">
-                  <a href=""><img src="./images/play.png" alt="" /></a>
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="./images/play.png" alt="" /></button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body"><iframe width="100%" height="400px" src="https://www.youtube.com/embed/_2zEqSCD7F4" title="Indian Kid Dances To Disco Music! (Disco Time)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <a href=""></a>
                 </div>
               </div>
             </div>
@@ -651,73 +671,6 @@
                 </div>
               </div>
             </div>
-
-            <!-- <div class="pricing-toggle">
-              <button>Monthly</button>
-              <button>Yearly</button>
-            </div> -->
-            <!-- <div class="pricing-botom">
-              <div class="pricing-box">
-                <div class="price-box-head yellow">
-                  <p>Support Branch</p>
-                </div>
-                <div class="price-content">
-                  <h6>$40/mo</h6>
-                  <p>Per Agent</p>
-                  <div class="price-line"></div>
-                  <p class="price">Paid Monthly (USD)</p>
-                  <div class="price-line botom-line"></div>
-                  <div class="price-boton yellow">
-                    <button>Talk To Sales</button>
-                  </div>
-                </div>
-              </div>
-              <div class="pricing-box">
-                <div class="price-box-head pink">
-                  <p>Zendesk</p>
-                </div>
-                <div class="price-content">
-                  <h6>$215/mo</h6>
-                  <p>Per Agent</p>
-                  <div class="price-line"></div>
-                  <p class="price">You Save:</p>
-                  <div class="price-line botom-line"></div>
-                  <div class="price-boton pink">
-                    <button>$ 525.00</button>
-                  </div>
-                </div>
-              </div>
-              <div class="pricing-box">
-                <div class="price-box-head green">
-                  <p>Freshdesk</p>
-                </div>
-                <div class="price-content">
-                  <h6>$99/mo</h6>
-                  <p>Per Agent</p>
-                  <div class="price-line"></div>
-                  <p class="price">You Save:</p>
-                  <div class="price-line botom-line"></div>
-                  <div class="price-boton green">
-                    <button>$ 255.00</button>
-                  </div>
-                </div>
-              </div>
-              <div class="pricing-box">
-                <div class="price-box-head blue">
-                  <p>Salesforce</p>
-                </div>
-                <div class="price-content">
-                  <h6>$300/mo</h6>
-                  <p>Per Agent</p>
-                  <div class="price-line"></div>
-                  <p class="price">You Save:</p>
-                  <div class="price-line botom-line"></div>
-                  <div class="price-boton blue">
-                    <button>$ 780.00</button>
-                  </div>
-                </div>
-              </div>
-            </div> -->
           </div>
         </div>
       </section>
@@ -889,8 +842,8 @@
     <footer>
       <div class="footer-top-sec">
         <div class="container">
-          <div class="foot-top-wrap">
-            <div class="foot-logo-wrap">
+          <div class="footer-inner-wrap">
+            <div class="footer-logo-wrap">
               <div class="foot-logo">
                 <img src="./images/logo.png" alt="" />
               </div>
@@ -908,46 +861,54 @@
                 </div>
               </div>
             </div>
-            <div class="foot-list">
-              <ul>
-                <li class="foot-link">
-                  <h6>Product</h6>
-                  <a href="">Customer Management</a>
-                  <a href="">Ticket Management</a>
-                  <a href="">Workflow Automation</a>
-                  <a href="">Native Integration</a>
-                  <a href="">Knowledge Base</a>
-                  <a href="">Analytics & Insights</a>
-                </li>
-                <li class="foot-link">
-                  <h6>Solutions</h6>
-                  <a href="">Email Management</a>
-                  <a href="">Escalation Management</a>
-                  <a href="">SLA Management</a>
-                  <a href="">Support Level Management</a>
-                  <a href="">Knowledge Base Support</a>
-                </li>
-                <li class="foot-link">
-                  <h6>Compare</h6>
-                  <a href="">Freshdesk</a>
-                  <a href="">Salesforce</a>
-                  <a href="">Oracle CX</a>
-                  <a href="">Zendesk</a>
-                </li>
-                <li class="foot-link">
-                  <h6>Resources</h6>
-                  <a href="">eBooks & Guides</a>
-                  <a href="">Videos</a>
-                  <a href="">Customer Stories</a>
-                  <a href="">Our Blog & Articles</a>
-                </li>
-                <li class="foot-link">
-                  <h6>Company</h6>
-                  <a href="">About Us</a>
-                  <a href="">Careers</a>
-                  <a href="">Support</a>
-                </li>
-              </ul>
+            <div class="footer-link-wrap">
+              <div class="foot-link-box">
+                <h6>Product</h6>
+                <ul>
+                  <li><a href="">Customer Management</a></li>
+                  <li><a href="">Ticket Management</a></li>
+                  <li><a href="">Workflow Automation</a></li>
+                  <li><a href="">Native Integration</a></li>
+                  <li><a href="">Knowledge Base</a></li>
+                  <li><a href="">Analytics & Insights</a></li>
+                </ul>
+              </div>
+              <div class="foot-link-box">
+                <h6>Solutions</h6>
+                <ul>
+                  <li><a href="">Email Management</a></li>
+                  <li><a href="">Escalation Management</a></li>
+                  <li><a href="">SLA Management</a></li>
+                  <li><a href="">Support Level Management</a></li>
+                  <li><a href="">Knowledge Base Support</a></li>
+                </ul>
+              </div>
+              <div class="foot-link-box">
+                <h6>Compare</h6>
+                <ul>
+                  <li><a href="">Freshdesk</a></li>
+                  <li><a href="">Salesforce</a></li>
+                  <li><a href="">Oracle CX</a></li>
+                  <li><a href="">Zendesk</a></li>
+                </ul>
+              </div>
+              <div class="foot-link-box">
+                <h6>Resources</h6>
+                <ul>
+                  <li><a href="">eBooks & Guides</a></li>
+                  <li><a href="">Videos</a></li>
+                  <li><a href="">Customer Stories</a></li>
+                  <li><a href="">Our Blog & Articles</a></li>
+                </ul>
+              </div>
+              <div class="foot-link-box">
+                <h6>Company</h6>
+                <ul>
+                  <li><a href="">About Us</a></li>
+                  <li><a href="">Careers</a></li>
+                  <li><a href="">Support</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
