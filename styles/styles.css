@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-ul, ol {
+ul,
+ol {
   padding: 0;
   margin: 0;
 }
@@ -61,8 +62,6 @@ header {
   margin-left: auto;
 }
 
-
-
 .navbar-nav li {
   margin-right: 50px;
   list-style: none;
@@ -117,7 +116,7 @@ header {
   width: 60%;
   position: relative;
   top: 0px;
-  right: -310px;
+  right: -300px;
 }
 
 .hero-left-head {
@@ -309,9 +308,9 @@ header {
   padding-bottom: 10px;
   width: 75%;
   border: 1px solid #ffffff;
-border-top: 0;
-border-right: 0;
-border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
   background: transparent;
   margin-bottom: 40px;
 }
@@ -425,15 +424,15 @@ border-left: 0;
 }
 
 .pricing-wrap .nav-link {
-background: #1A0E36;
-width: 228px;
-height: 80px;
-font-size: 20px;
-font-weight: 400;
-color: #ffffff;
-border: 1.5px solid #1A0E36;
-box-shadow: 0px 20px 54px rgba(26, 14, 54, 0.08);
-border-radius: 0;
+  background: #1a0e36;
+  width: 228px;
+  height: 80px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  border: 1.5px solid #1a0e36;
+  box-shadow: 0px 20px 54px rgba(26, 14, 54, 0.08);
+  border-radius: 0;
 }
 
 .pricing-wrap .nav-link.active {
@@ -815,7 +814,6 @@ border-radius: 0;
   margin-top: 40px;
 }
 
-
 .tab-left-head h3 {
   font-size: 32px;
   font-weight: 600;
@@ -908,9 +906,6 @@ border-radius: 0;
   color: #ff9800;
 }
 
-
-
-
 /* footer starts  */
 
 footer {
@@ -949,23 +944,19 @@ footer {
   margin-bottom: 20px;
 }
 
-
 .foot-link-box ul {
   list-style: none;
 }
 
-
 .foot-link-box ul li {
   margin-bottom: 8px;
 }
-
 
 .foot-link-box ul li a {
   font-size: 18px;
   font-weight: 400;
   color: #ffffff;
 }
-
 
 .foot-logo {
   margin-bottom: 40px;
@@ -979,9 +970,9 @@ footer {
 }
 
 .foot-logo-content a {
-font-size: 18px;
-font-weight: 400;
-color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
 }
 
 .foot-logo-content {
@@ -1005,7 +996,6 @@ color: #ffffff;
   margin-bottom: 20px;
 }
 
-
 .foot-line {
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -1015,9 +1005,9 @@ color: #ffffff;
 }
 
 .foot-botom-wrap {
-display: flex;
-align-items: center;
-justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .foot-botom-wrap p {
@@ -1032,9 +1022,4 @@ justify-content: space-between;
   color: #ffffff;
 }
 
-
-
-
 /* footer ends  */
-
-

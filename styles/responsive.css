@@ -18,8 +18,8 @@
     font-size: 18px;
   }
 
-  .navbar-end {
-    width: 25%;
+  .navbar-nav li {
+    margin-right: 5px;
   }
 
   .navbar-end button {
@@ -1346,7 +1346,7 @@
   footer {
     padding: 20px 0 0 0;
   }
-  
+
   .footer-inner-wrap {
     flex-wrap: wrap;
   }
@@ -1399,10 +1399,6 @@
     font-size: 10px;
   }
 
-
-
-
-  
   .foot-botom-wrap {
     justify-content: center;
     flex-wrap: wrap;
